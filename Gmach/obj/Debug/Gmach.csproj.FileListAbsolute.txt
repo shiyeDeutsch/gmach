@@ -1,0 +1,40 @@
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.exe
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.pdb
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\bin\Debug\Gmach.exe
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\bin\Debug\Gmach.pdb
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.csprojResolveAssemblyReference.cache
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.ControlerDate.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.CreateALoans.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.CreateMembers.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.Form1.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.formHarivem.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.frmCalendar.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.frmLoans.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.frmMemberList.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.frmPaments.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.frmReports.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.froLogIn.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.memberLeble.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.Properties.Resources.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.ViewTheLoans.resources
+C:\Users\POSEIDON\Desktop\Gmach\Gmach\obj\Debug\Gmach.csproj.GenerateResource.Cache
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.exe
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.pdb
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\bin\Debug\Gmach.exe
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\bin\Debug\Gmach.pdb
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.csprojResolveAssemblyReference.cache
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.ControlerDate.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.CreateALoans.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.CreateMembers.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.Form1.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.formHarivem.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.frmCalendar.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.frmLoans.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.frmMemberList.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.frmPaments.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.frmReports.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.froLogIn.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.memberLeble.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.Properties.Resources.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.ViewTheLoans.resources
+C:\Users\POSEIDON\Documents\Visual Studio 2013\Projects\Gmach\Gmach\obj\Debug\Gmach.csproj.GenerateResource.Cache

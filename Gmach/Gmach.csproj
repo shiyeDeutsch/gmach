@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B8CE080-E1B0-4A92-93E3-4E2ECE555CEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gmach</RootNamespace>
+    <AssemblyName>Gmach</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlerDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlerDate.Designer.cs">
+      <DependentUpon>ControlerDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateALoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateALoans.Designer.cs">
+      <DependentUpon>CreateALoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateMembers.Designer.cs">
+      <DependentUpon>CreateMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_BL\PersonalDetails_BL.cs" />
+    <Compile Include="Project_DAl\BaseDAL.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formHarivem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHarivem.Designer.cs">
+      <DependentUpon>formHarivem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalnter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalnter.Designer.cs">
+      <DependentUpon>frmCalnter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoans.Designer.cs">
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMemberList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMemberList.Designer.cs">
+      <DependentUpon>frmMemberList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaments.Designer.cs">
+      <DependentUpon>frmPaments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="froLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="froLogIn.Designer.cs">
+      <DependentUpon>froLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GrigSrevises.cs" />
+    <Compile Include="Project_BL\Loans_BL.cs" />
+    <Compile Include="Project_DAl\Loans_DAL.cs" />
+    <Compile Include="Loans_DS.cs">
+      <DependentUpon>Loans_DS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Loans_DS.designer.cs">
+      <DependentUpon>Loans_DS.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="memberLeble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memberLeble.Designer.cs">
+      <DependentUpon>memberLeble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project_BL\Payments_BL.cs" />
+    <Compile Include="Project_DAl\Payments_DAL.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Project_DAl\PersonalDetails_DAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ControlerDate.resx">
+      <DependentUpon>ControlerDate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateALoans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateALoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateMembers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateMembers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHarivem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>formHarivem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalnter.resx">
+      <DependentUpon>frmCalnter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMemberList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMemberList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaments.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPaments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="froLogIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>froLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="memberLeble.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>memberLeble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTheLoans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewTheLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <Compile Include="ViewTheLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTheLoans.Designer.cs">
+      <DependentUpon>ViewTheLoans.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_3956 %28WinCE%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Loans_DS.xsc">
+      <DependentUpon>Loans_DS.xsd</DependentUpon>
+    </None>
+    <None Include="Loans_DS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Loans_DS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Loans_DS.xss">
+      <DependentUpon>Loans_DS.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\draw+edit+pen+pencil+text+write+icon-1320162307919760358_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Azul.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
